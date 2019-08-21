@@ -18,6 +18,15 @@ letter-spacing: 3px;
 text-align: center;
 }
 
+h2{
+ 
+margin: 25px;
+font: 25px Georgia, Serif; 
+text-transform: uppercase;
+letter-spacing: 3px;
+text-align: center;
+      
+}
 #quiz input {
 vertical-align: middle;
 color: darkblue;

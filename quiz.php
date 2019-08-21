@@ -12,7 +12,8 @@
 <body>
  
 	<div id="page-wrap" >
- <h2>MOVIE QUIZ</h2>
+ <h1>MOVIE QUIZ</h1>
+ <hr>
     <h1>AVENGERS</h1>
 		
 	<form action="result.php" method="post" id="quiz">
@@ -79,22 +80,22 @@
                     <h3>Which one of these is not an infinity stone?</h3>
                     
                     <div>
-                        <input type="radio" name="question-3-answers" id="question-3-answers-A" value="A" />
+                        <input type="radio" name="question-3-answers1" id="question-3-answers-A" value="A" />
                         <label for="question-3-answers-A">A) Speed</label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-3-answers" id="question-3-answers-B" value="B" />
+                        <input type="radio" name="question-3-answers2" id="question-3-answers-B" value="B" />
                         <label for="question-3-answers-B">B) Time</label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-3-answers" id="question-3-answers-C" value="C" />
+                        <input type="radio" name="question-3-answers3" id="question-3-answers-C" value="C" />
                         <label for="question-3-answers-C">C) Mind</label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-3-answers" id="question-3-answers-D" value="D" />
+                        <input type="radio" name="question-3-answers4" id="question-3-answers-D" value="D" />
                         <label for="question-3-answers-D">D) Power</label>
                     </div>
                 
@@ -105,7 +106,7 @@
                     <h3>What is the Hulks real name ?</h3>
                     
                     <div>
-                        <input type="radio" name="question-4-answers" id="question-4-answers-A" value="A" />
+                        <input type="radio" name="question-4-answers5" id="question-4-answers-A" value="A" />
                         <label for="question-4-answers-A">A) Bruce Wayne</label>
                     </div>
                     
@@ -157,7 +158,7 @@
             
             
             </ol>
-
+            <hr>
  
  <h1>SHREK</h1>
      
@@ -170,7 +171,7 @@
          
              <li>
              
-                 <h3>Tony stark (Iron-man) "stars" in which movie ?</h3>
+                 <h3>How many kids do Shrek and Fiona have?</h3>
                  
                  <div>
                      <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
@@ -196,7 +197,7 @@
              
              <li>
              
-                 <h3>Which Avenger (besides Thor) is worthy enough to lift Thors hammer?</h3>
+                 <h3>What is the only thing that can save Fiona from her curse?</h3>
                  
                  <div>
                      <input type="radio" name="question-2-answers" id="question-2-answers-A" value="A" />
@@ -222,7 +223,7 @@
              
              <li>
              
-                 <h3>Which one of these is not an infinity stone?</h3>
+                 <h3>Who voices Shrek?</h3>
                  
                  <div>
                      <input type="radio" name="question-3-answers" id="question-3-answers-A" value="A" />
@@ -248,7 +249,7 @@
              
              <li>
              
-                 <h3>What is the Hulks real name ?</h3>
+                 <h3>Where does the muffin man live?</h3>
                  
                  <div>
                      <input type="radio" name="question-4-answers" id="question-4-answers-A" value="A" />
@@ -274,7 +275,7 @@
              
              <li>
              
-                 <h3>Who`s parents did Bucki (The winter shoulder) kill ?</h3>
+                 <h3>What vegetable are ogres like?</h3>
                  
                  <div>
                      <input type="radio" name="question-5-answers" id="question-5-answers-A" value="A" />
@@ -303,7 +304,7 @@
          
          
          </ol>
-
+         <hr>
          <h1>BACK TO THE FUTURE</h1>
      
      <form action="result.php" method="post" id="quiz">
@@ -448,7 +449,7 @@
              
              
              </ol>
-
+             <hr>
              <h1>THE MATRIX</h1>
      
      <form action="result.php" method="post" id="quiz">
@@ -593,7 +594,7 @@
              
              
              </ol>
-
+             <hr>
              <h1>TITANIC</h1>
      
      <form action="result.php" method="post" id="quiz">
@@ -738,7 +739,7 @@
              
              
              </ol>
-
+             <hr>
          </div>
 
 
