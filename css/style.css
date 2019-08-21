@@ -1,0 +1,68 @@
+body{ 
+font-size: 15px;
+font-family: 'Courier New', Courier, monospace;
+background-color: white;
+}
+
+#page-wrap { 
+
+margin: 0 auto;
+
+}
+
+h1  {
+margin: 25px;
+font: 18px Georgia, Serif; 
+text-transform: uppercase;
+letter-spacing: 3px;
+text-align: center;
+}
+
+#quiz input {
+vertical-align: middle;
+color: darkblue;
+/* width: 100px; */
+height: 100px;
+}
+
+
+#quiz ol li {
+margin: 0 0 20px 0;
+color: black;
+font-weight: bold;
+}
+
+#quiz ol li div {
+padding: 4px 0;
+}
+
+#quiz h3 {
+font-size: 17px; 
+margin: 0 0 1px 0; 
+color: blue;
+font-family: 'Courier New', Courier, monospace;
+}
+
+#results {
+font: 44px Georgia, Serif;
+text-align: center;
+}
+
+.btn{
+   color: white;
+   background-color: blue;
+   border: none;
+   width: 100px;
+   height: 25px;
+}
+
+#btn{
+   text-align: center;
+}
+
+
+
+/* AVENGERS */
+.avengers{
+   background-color: aqua;
+}
