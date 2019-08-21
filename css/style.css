@@ -4,14 +4,14 @@ font-family: 'Courier New', Courier, monospace;
 background-color: white;
 }
 
-#page-wrap { 
+/* #page-wrap { 
 
 margin: 0 auto;
 
-}
+} */
 
 h1  {
-margin: 25px;
+/* margin: 25px; */
 font: 18px Georgia, Serif; 
 text-transform: uppercase;
 letter-spacing: 3px;
@@ -20,36 +20,44 @@ text-align: center;
 
 h2{
  
-margin: 25px;
-font: 25px Georgia, Serif; 
+/* margin: 25px; */
+font: 35px Georgia, Serif; 
 text-transform: uppercase;
 letter-spacing: 3px;
 text-align: center;
       
 }
+
+h3{
+   color: red;
+}
 #quiz input {
 vertical-align: middle;
 color: darkblue;
-/* width: 100px; */
+width: 100px;
 height: 100px;
 }
 
 
 #quiz ol li {
-margin: 0 0 20px 0;
+/* margin: 0 0 20px 0; */
 color: black;
 font-weight: bold;
 }
 
 #quiz ol li div {
-padding: 4px 0;
+/* padding: 4px 0; */
 }
 
 #quiz h3 {
-font-size: 17px; 
-margin: 0 0 1px 0; 
+font-size: 30px; 
+/* margin: 0 0 1px 0;  */
 color: blue;
 font-family: 'Courier New', Courier, monospace;
+text-align: center;
+border: 1px solid black;
+background-color: aqua;
+border-radius: 25px;;
 }
 
 #results {
@@ -72,6 +80,24 @@ text-align: center;
 
 
 /* AVENGERS */
-.avengers{
-   background-color: aqua;
+.row{
+   background-color: white;
+   color: black;
+   width: 100%;
 }
+
+.row:hover{
+   background-color: black;
+   color: #ffffff;
+   width: 100%;
+
+}
+
+
+
+
+/* **************************************************************************
+************************************************************************** */
+
+
+ 
