@@ -11,7 +11,7 @@
 
 </head>
  
-<body  background="img/bg2.jpg">
+<body  >
  
 	<div id="page-wrap">
  
@@ -70,11 +70,11 @@
             
             echo "<div id='results'>$totalCorrect / 20 correct</div>";
             if ($totalCorrect< "10") {
-                echo "<div id='message'> Try harder! </div>";
-            } elseif ($totalCorrect == "20") {
+                echo "<div id='message'>  Thats Good, Keep trying! </div>";
+            } elseif ($totalCorrect == "17") {
                 echo "Great Job! , You should go out more lol";
             } else {
-                echo "Have a good night!";
+                echo "I suggest you go an watch these movies!";
             }
             
         ?>
