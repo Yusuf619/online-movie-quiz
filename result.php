@@ -3,7 +3,9 @@
 <html>
  
 <head>
-	<meta charset="UTF-8" />
+    <meta charset="UTF-8" />
+    	
+    <link rel="stylesheet" href="./style.css">
 	
 	<title>PHP Quiz</title>
 
@@ -79,7 +81,7 @@
            if ($totalCorrect< "10") {
                echo "Try harder!";
            } elseif ($totalCorrect == "20") {
-               echo "You got every thing right you are a star!";
+               echo "Great Job! , You should go out more lol";
            } else {
                echo "Have a good night!";
            }

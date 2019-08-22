@@ -13,15 +13,16 @@
 <body class="img" background="img/bg2.jpg">
  
 	<div id="page-wrap" >
- <h1>MOVIE QUIZ</h1>
+        <div class="nav"><h1>MOVIE QUIZ</h1></div>
+
  <hr>
    
 		
 	<form action="result.php" method="post" id="quiz">
 
-    <div> 
-       <h2> <img src="img/avenger.jpg" width="50%" height="50%" float="left"> AVENGERS</h2>
-    <div>
+    <div style="display: flex; justify-content: center;">
+      <img src="img/avenger.jpg" width="50%" height="50%">
+</div>
             <ol>
             
                 <li>
@@ -501,12 +502,11 @@
                  
                  <li>
                  
-                     <h3>3. How does the Nebuchadnezzar initially contact Neo?</h3>
+                     <h3> How does the Nebuchadnezzar initially contact Neo?</h3>
                      
                      <div class="row">
                          <input type="radio" name="question-17-answers" id="question-17-answers-A" value="A" />
-                         <label for="question-2-answers-A">A) 
-Through the white rabbit</label>
+                         <label for="question-2-answers-A">A) Through the white rabbit</label>
                      </div>
                      
                      <div class="row">
@@ -580,7 +580,7 @@ Through the white rabbit</label>
                  
                  <li>
                  
-                     <h3>. Who makes a deal with Agent Smith to sell out Morpheus in The Matrix?</h3>
+                     <h3> Who makes a deal with Agent Smith to sell out Morpheus in The Matrix?</h3>
                      
                      <div class="row">
                          <input type="radio" name="question-20-answers" id="question-20-answers-A" value="A" />
@@ -589,8 +589,7 @@ Through the white rabbit</label>
                      
                      <div class="row">
                          <input type="radio" name="question-20-answers" id="question-20-answers-B" value="B" />
-                         <label for="question-5-answers-B">B)
-Mouse</label>
+                         <label for="question-5-answers-B">B) Mouse</label>
                      </div>
                      
                      <div class="row">
@@ -600,8 +599,7 @@ Mouse</label>
                      
                      <div class="row">
                          <input type="radio" name="question-20-answers" id="question-20-answers-D" value="D" />
-                         <label for="question-5-answers-D">D)
-Cypher/label>
+                         <label for="question-5-answers-D">D) Cypher/label>
                      </div>
                  
                  </li>
@@ -611,162 +609,12 @@ Cypher/label>
              
              
              </ol>
+            
+    <div class="btn"><button type="submit"  id="btn">SUBMIT</button></div>
+           
+
              <hr>
-             <h1>TITANIC</h1>
-     
-     <form action="result.php" method="post" id="quiz">
-    
-     <div  style="display: flex; justify-content: center;" > 
-         <img src="img/titanic-the-movie copy.jpg" alt="" width="25%" height="25%">
-         </div>
-             <ol>
-             
-                 <li>
-                 
-                     <h3>What major star was originally a favorite for the lead male role?</h3>
-                     
-                     <div class="row">
-                         <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
-                         <label for="question-1-answers-A">A) Matthew McConaughey
- </label>
-                     </div>
-                     
-                      <div class="row">
-                         <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
-                         <label for="question-1-answers-B">B) Johnny Depp</label>
-                     </div>
-                     
-                     <div class="row">
-                         <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
-                         <label for="question-1-answers-C">C) Ben Affleck
-</label>
-                     </div>
-                     
-                     <div class="row">
-                         <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
-                         <label for="question-1-answers-D">D) Barry Allen</label>
-                     </div>
-                 
-                 </li>
-                 
-                 <li>
-                 
-                     <h3>Who played the role of the unsinkable Molly Brown in the film?</h3>
-                     
-                     <div class="row">
-                         <input type="radio" name="question-2-answers" id="question-2-answers-A" value="A" />
-                         <label for="question-2-answers-A">A) Debbie Reynolds
-</label>
-                     </div>
-                     
-                     <div class="row">
-                         <input type="radio" name="question-2-answers" id="question-2-answers-B" value="B" />
-                         <label for="question-2-answers-B">B) Reba McEntire</label>
-                     </div>
-                     
-                     <div class="row">
-                         <input type="radio" name="question-2-answers" id="question-2-answers-C" value="C" />
-                         <label for="question-2-answers-C">C) Kathy Bates
-</label>
-                     </div>
-                     
-                     <div class="row">
-                         <input type="radio" name="question-2-answers" id="question-2-answers-D" value="D" />
-                         <label for="question-2-answers-D">D) ZLatan ibrahimovic</label>
-                     </div>
-                 
-                 </li>
-                 
-                 <li>
-                 
-                     <h3>Kate Winslet contracted what illness during filming?</h3>
-                     
-                     <div class="row">
-                         <input type="radio" name="question-3-answers" id="question-3-answers-A" value="A" />
-                         <label for="question-3-answers-A">A) mononucleosis
-</label>
-                     </div>
-                     
-                     <div class="row">
-                         <input type="radio" name="question-3-answers" id="question-3-answers-B" value="B" />
-                         <label for="question-3-answers-B">B) pneumonia
-</label>
-                     </div>
-                     
-                     <div class="row">
-                         <input type="radio" name="question-3-answers" id="question-3-answers-C" value="C" />
-                         <label for="question-3-answers-C">C) dysentery</label>
-                     </div>
-                     
-                     <div class="row">
-                         <input type="radio" name="question-3-answers" id="question-3-answers-D" value="D" />
-                         <label for="question-3-answers-D">D) cancer</label>
-                     </div>
-                 
-                 </li>
-                 
-                 <li>
-                 
-                     <h3>How much money has "Titanic" grossed worldwide?</h3>
-                     
-                     <div class="row">
-                         <input type="radio" name="question-4-answers" id="question-4-answers-A" value="A" />
-                         <label for="question-4-answers-A">A) $1 billion
-</label>
-                     </div>
-                     
-                     <div class="row">
-                         <input type="radio" name="question-4-answers" id="question-4-answers-B" value="B" />
-                         <label for="question-4-answers-B">B) 
-$1.6 billion</label>
-                     </div>
-                     
-                     <div class="row">
-                         <input type="radio" name="question-4-answers" id="question-4-answers-C" value="C" />
-                         <label for="question-4-answers-C">C) $2.2 billion
-</label>
-                     </div>
-                     
-                     <div class="row">
-                         <input type="radio" name="question-4-answers" id="question-4-answers-D" value="D" />
-                         <label for="question-4-answers-D">D) $3 billion
-</label>
-                     </div>
-                 
-                 </li>
-                 
-                 <li>
-                 
-                     <h3>What was the working title of the film?</h3>
-                     
-                     <div class="row">
-                         <input type="radio" name="question-5-answers" id="question-5-answers-A" value="A" />
-                         <label for="question-5-answers-A">A)"Planet Ice"
-</label>
-                     </div>
-                     
-                     <div class="row">
-                         <input type="radio" name="question-5-answers" id="question-5-answers-B" value="B" />
-                         <label for="question-5-answers-B">B) "Epic Rose"</label>
-                     </div>
-                     
-                     <div class="row">
-                         <input type="radio" name="question-5-answers" id="question-5-answers-C" value="C" />
-                         <label for="question-5-answers-C">C) "Iceberg"</label>
-                     </div>
-                     
-                     <div class="row">
-                         <input type="radio" name="question-5-answers" id="question-5-answers-D" value="D" />
-                         <label for="question-5-answers-D">D) "The big ice"</label>
-                     </div>
-                 
-</li>
-                 
-    
-             </ol>
-             <hr>
-             <button type="submit" class="btn"  id="btn">SUBMIT</button>
-         </div>
+         
 
 </body>
  
