@@ -6,10 +6,10 @@
 	
 	<title>QUIZ</title>
 	
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
  
-<body>
+<body class="img" background="img/light.jpg">
  
 	<div id="page-wrap" >
  <h1>MOVIE QUIZ</h1>
@@ -165,7 +165,7 @@
      
  <form action="result.php" method="post" id="quiz">
 
- <div class="row" style="display: flex; justify-content: center;" > 
+ <div  style="display: flex; justify-content: center;" > 
      <img src="img/shrek.jpeg" alt="" width="25%" height="25%">
      </div>
          <ol>
@@ -174,22 +174,22 @@
              
                  <h3>How many kids do Shrek and Fiona have?</h3>
                  
-                 <div class="row2" >
+                 <div class="row" >
                      <input type="radio" name="question-6-answers" id="question-6-answers-A" value="A" />
                      <label for="question-1-answers-A">A) 2</label>
                  </div>
                  
-                  <div class="row2">
+                  <div class="row">
                      <input type="radio" name="question-6-answers" id="question-6-answers-B" value="B" />
                      <label for="question-1-answers-B">B) 5</label>
                  </div>
                  
-                 <div class="row2" >
+                 <div class="row" >
                      <input type="radio" name="question-6-answers" id="question-6-answers-C" value="C" />
                      <label for="question-1-answers-C">C) 3</label>
                  </div>
                  
-                 <div class="row2" >
+                 <div class="row" >
                      <input type="radio" name="question-6-answers" id="question-6-answers-D" value="D" />
                      <label for="question-1-answers-D">D) 7</label>
                  </div>
@@ -228,22 +228,22 @@
                  
                  <div class="row" class="row">
                      <input type="radio" name="question-8-answers" id="question-8-answers-A" value="A" />
-                     <label for="question-3-answers-A">A) Mike Meyers</label>
+                     <label for="question-8-answers-A">A) Mike Meyers</label>
                  </div>
                  
                  <div class="row" class="row">
                      <input type="radio" name="question-8-answers" id="question-8-answers-B" value="B" />
-                     <label for="question-3-answers-B">B) Jack Daniels</label>
+                     <label for="question-8-answers-B">B) Jack Daniels</label>
                  </div>
                  
                  <div class="row" class="row">
                      <input type="radio" name="question-8-answers" id="question-8-answers-C" value="C" />
-                     <label for="question-3-answers-C">C) Johnny Depp</label>
+                     <label for="question-8-answers-C">C) Johnny Depp</label>
                  </div>
                  
                  <div class="row" class="row">
                      <input type="radio" name="question-8-answers" id="question-8-answers-D" value="D" />
-                     <label for="question-3-answers-D">D) That guy from family guy</label>
+                     <label for="question-8-answers-D">D) That guy from family guy</label>
                  </div>
              
              </li>
@@ -310,7 +310,7 @@
      
      <form action="result.php" method="post" id="quiz">
     
-     <div class="row" style="display: flex; justify-content: center;" > 
+     <div  style="display: flex; justify-content: center;" > 
          <img src="img/back2.jpg" alt="" width="25%" height="25%">
          </div>
              <ol>
@@ -466,7 +466,7 @@
      
      <form action="result.php" method="post" id="quiz">
     
-     <div class="row" style="display: flex; justify-content: center;" > 
+     <div  style="display: flex; justify-content: center;" > 
          <img src="img/the-matrix copy.jpg" alt="" width="50%" height="50%">
          </div>
              <ol>
@@ -614,7 +614,7 @@ Cypher/label>
      
      <form action="result.php" method="post" id="quiz">
     
-     <div class="row" style="display: flex; justify-content: center;" > 
+     <div  style="display: flex; justify-content: center;" > 
          <img src="img/titanic-the-movie copy.jpg" alt="" width="25%" height="25%">
          </div>
              <ol>
@@ -766,18 +766,6 @@ $1.6 billion</label>
              <button type="submit" class="btn" id="btn">SUBMIT</button>
          </div>
 
-
-
-
-
-
-
-	
-
- 
- 
 </body>
  
-</html>
-</body>
 </html>

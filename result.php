@@ -6,8 +6,7 @@
 	<meta charset="UTF-8" />
 	
 	<title>PHP Quiz</title>
-	
-    <link rel="stylesheet" href="./css/style.css">
+
 </head>
  
 <body>

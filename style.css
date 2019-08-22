@@ -1,15 +1,12 @@
 body{ 
 font-size: 15px;
 font-family: 'Courier New', Courier, monospace;
-background-color: black;
-background-image: url(/img/avenger.jpg);
 }
 
-/* #page-wrap { 
+#page-wrap { 
 
 margin: 0 auto;
-
-} */
+}
 
 h1  {
 /* margin: 25px; */
@@ -17,6 +14,7 @@ font: 18px Georgia, Serif;
 text-transform: uppercase;
 letter-spacing: 3px;
 text-align: center;
+color: #ffffff;
 }
 
 h2{
@@ -57,7 +55,7 @@ color: blue;
 font-family: 'Courier New', Courier, monospace;
 text-align: center;
 border: 1px solid black;
-background-color: aqua;
+background-color: lightblue;
 border-radius: 25px;;
 }
 
@@ -78,6 +76,14 @@ text-align: center;
    text-align: center;
 }
 
+.img{
+   width: 100%;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;   
+ }
+
 
 
 /* AVENGERS */
@@ -88,9 +94,10 @@ text-align: center;
 }
 
 .row:hover{
-   background-color: black;
-   color: #ffffff;
+   background-color: palegoldenrod;
+   color: black;
    width: 100%;
+
 
 }
 
