@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./style.css">
 </head>
  
-<body class="img" background="img/light.jpg">
+<body class="img" background="img/bg2.jpg">
  
 	<div id="page-wrap" >
  <h1>MOVIE QUIZ</h1>
@@ -20,7 +20,7 @@
 
     <div  style="display: flex; justify-content: center;" > 
         <img src="img/avenger.jpg" alt="" width="50%" height="50%">
-        </div>
+</div>
             <ol>
             
                 <li>
@@ -159,6 +159,7 @@
             
             
             </ol>
+        
             <hr>
  
  <h1>SHREK</h1>
@@ -310,7 +311,7 @@
      
      <form action="result.php" method="post" id="quiz">
     
-     <div  style="display: flex; justify-content: center;" > 
+     <div  style="display: flex; justify-content: center;"> 
          <img src="img/back2.jpg" alt="" width="25%" height="25%">
          </div>
              <ol>
@@ -763,7 +764,7 @@ $1.6 billion</label>
     
              </ol>
              <hr>
-             <button type="submit" class="btn" id="btn">SUBMIT</button>
+             <button type="submit" class="btn"  id="btn">SUBMIT</button>
          </div>
 
 </body>

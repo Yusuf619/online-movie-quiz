@@ -30,6 +30,7 @@ text-align: center;
 h3{
    color: red;
 }
+
 #quiz input {
 vertical-align: middle;
 color: darkblue;
@@ -64,17 +65,15 @@ font: 44px Georgia, Serif;
 text-align: center;
 }
 
-.btn{
+button{
    color: white;
    background-color: blue;
    border: none;
    width: 100px;
    height: 25px;
-}
-
-#btn{
    text-align: center;
 }
+
 
 .img{
    width: 100%;
@@ -90,12 +89,12 @@ text-align: center;
 .row{
    background-color: white;
    color: black;
-   width: 100%;
+   margin-right: 50px;
 }
 
 .row:hover{
-   background-color: palegoldenrod;
-   color: black;
+   background-color: lightblue;
+   color: lightyellow;
    width: 100%;
 
 
