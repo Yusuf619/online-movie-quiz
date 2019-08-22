@@ -11,7 +11,7 @@
 
 </head>
  
-<body>
+<body  background="img/bg2.jpg">
  
 	<div id="page-wrap">
  
@@ -70,7 +70,7 @@
             
             echo "<div id='results'>$totalCorrect / 20 correct</div>";
             if ($totalCorrect< "10") {
-                echo "Try harder!";
+                echo "<div id='message'> Try harder! </div>";
             } elseif ($totalCorrect == "20") {
                 echo "Great Job! , You should go out more lol";
             } else {
@@ -78,8 +78,8 @@
             }
             
         ?>
-
-            <button class="btn2"><a href="quiz.php">BACK TO QUIZ</a></button>
+<div class="btn"><button class="btn2"><a href="quiz.php">BACK TO QUIZ</a></button></div>
+         
         
 	
 	</div>

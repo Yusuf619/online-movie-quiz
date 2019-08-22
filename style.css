@@ -75,6 +75,13 @@ font: 44px Georgia, Serif;
 text-align: center;
 }
 
+#message{
+font: 35px Georgia, Serif;
+text-align: center;
+color: darkred;
+margin-top: 50px;
+}
+
 button{
    color: white;
    background-color: blue;
@@ -88,6 +95,7 @@ button{
 
 .btn{
    text-align: center;
+   margin-top: 50px;
 }
 
 
