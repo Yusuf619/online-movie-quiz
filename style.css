@@ -4,6 +4,10 @@ font-family: 'Quicksand', sans-serif;
 
 }
 
+html{
+   scroll-behavior: smooth;
+}
+
 #page-wrap { 
 
 margin: 0 auto;

@@ -8,6 +8,8 @@
 	
     <link rel="stylesheet" href="./style.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
 </head>
  
 <body class="img" background="img/bg2.jpg">
@@ -30,7 +32,7 @@
                     <h3>Tony stark (Iron-man) "stars" in which movie ?</h3>
                     
                     <div class="row" class="row">
-                        <input type="radio" id="f-option" name="selector" name="question-1-answers" id="question-1-answers-A" value="A" />
+                        <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
                         <label for="question-1-answers-A">A) Titanic </label>
                     </div>
                     
@@ -614,6 +616,10 @@
            
 
              <hr>
+
+<script>jQuery(document).ready(function(){
+jQuery(this).scrollTop(0);
+});</script>
          
 
 </body>
