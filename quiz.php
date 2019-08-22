@@ -23,8 +23,15 @@
 	<form action="result.php" method="post" id="quiz">
 
     <div style="display: flex; justify-content: center;">
-      <img src="img/avenger.jpg" width="50%" height="50%">
+      <!-- <img src="img/avenger.jpg" width="50%" height="50%"> -->
+     <h2>TEST YOUR KNOWLEGDE ON THE FOLLOWING MOVIES:</h2>
 </div>
+
+     <h1>AVENGERS:</h1>
+
+<span style="display: flex; justify-content: center;">Hover to see image of the movie.</span>
+        <div class="img-hover"><img src="img/avenger.jpg" width="50%" height="50%"></div>
+
             <ol>
             
                 <li>
@@ -84,18 +91,18 @@
                     <h3>Which one of these is not an infinity stone?</h3>
                     
                     <div class="row" class="row">
-                        <input type="radio" name="question-3-answers1" id="question-3-answers-A" value="A" />
+                        <input type="radio" name="question-3-answers" id="question-3-answers-A" value="A" />
                         <label for="question-3-answers-A">A) Speed</label>
                     </div>
                     
                     <div class="row" class="row">
-                        <input type="radio" name="question-3-answers2" id="question-3-answers-B" value="B" />
+                        <input type="radio" name="question-3-answers" id="question-3-answers-B" value="B" />
                         <label for="question-3-answers-B">B) Time</label>
                     </div>
                     
                     <div class="row" class="row">
                     
-                        <input type="radio" name="question-3-answers3" id="question-3-answers-C" value="C" />
+                        <input type="radio" name="question-3-answers" id="question-3-answers-C" value="C" />
                         <label for="question-3-answers-C">C) Mind</label>
                     </div>
                     
@@ -111,7 +118,7 @@
                     <h3>What is the Hulks real name ?</h3>
                     
                     <div class="row" class="row">
-                        <input type="radio" name="question-4-answers5" id="question-4-answers-A" value="A" />
+                        <input type="radio" name="question-4-answers" id="question-4-answers-A" value="A" />
                         <label for="question-4-answers-A">A) Bruce Wayne</label>
                     </div>
                     
@@ -168,11 +175,11 @@
  
  <h1>SHREK</h1>
      
- <form action="result.php" method="post" id="quiz">
+ <!-- <form action="result.php" method="post" id="quiz"> -->
 
- <div  style="display: flex; justify-content: center;" > 
-     <img src="img/shrek.jpeg" alt="" width="25%" height="25%">
-     </div>
+
+<span style="display: flex; justify-content: center;">Hover to see image of the movie.</span>
+        <div class="img-hover"><img src="img/shrek.jpeg" alt="" width="25%" height="25%"> </div>
          <ol>
          
              <li>
@@ -313,11 +320,12 @@
          <hr>
          <h1>BACK TO THE FUTURE</h1>
      
-     <form action="result.php" method="post" id="quiz">
     
-     <div  style="display: flex; justify-content: center;"> 
-         <img src="img/back2.jpg" alt="" width="25%" height="25%">
-         </div>
+
+         <span style="display: flex; justify-content: center;">Hover to see image of the movie.</span>
+        <div class="img-hover"><img src="img/back2.jpg" alt="" width="25%" height="25%"> </div>
+
+        
              <ol>
              
                  <li>
@@ -469,11 +477,9 @@
              <hr>
              <h1>THE MATRIX</h1>
      
-     <form action="result.php" method="post" id="quiz">
     
-     <div  style="display: flex; justify-content: center;" > 
-         <img src="img/the-matrix copy.jpg" alt="" width="50%" height="50%">
-         </div>
+         <span style="display: flex; justify-content: center;">Hover to see image of the movie.</span>
+        <div class="img-hover"><img src="img/the-matrix copy.jpg" alt="" width="50%" height="50%"></div>
              <ol>
              
                  <li>
@@ -601,7 +607,7 @@
                      
                      <div class="row">
                          <input type="radio" name="question-20-answers" id="question-20-answers-D" value="D" />
-                         <label for="question-5-answers-D">D) Cypher/label>
+                         <label for="question-5-answers-D">D) Cypher/<label>
                      </div>
                  
                  </li>
@@ -616,10 +622,10 @@
            
 
              <hr>
-
+<!-- 
 <script>jQuery(document).ready(function(){
 jQuery(this).scrollTop(0);
-});</script>
+});</script> -->
          
 
 </body>

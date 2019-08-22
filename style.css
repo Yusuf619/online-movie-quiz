@@ -85,6 +85,7 @@ button{
    margin: 0 auto;
 }
 
+
 .btn{
    text-align: center;
 }
@@ -122,7 +123,21 @@ button{
 
 }
 
+.img-hover {
+   display: none;
+   text-align: center;
+   padding-top: 20px;
 
+ }
+ span{
+    color: #ffffff;
+    text-align: center;
+ }
+   
+ span:hover + .img-hover {
+   display: block;
+   transition: all .4s ease;
+ }
 
 
 /* **************************************************************************
