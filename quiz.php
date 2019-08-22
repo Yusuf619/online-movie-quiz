@@ -7,6 +7,7 @@
 	<title>QUIZ</title>
 	
     <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
 </head>
  
 <body class="img" background="img/bg2.jpg">
@@ -14,13 +15,13 @@
 	<div id="page-wrap" >
  <h1>MOVIE QUIZ</h1>
  <hr>
-    <h1>AVENGERS</h1>
+   
 		
 	<form action="result.php" method="post" id="quiz">
 
-    <div  style="display: flex; justify-content: center;" > 
-        <img src="img/avenger.jpg" alt="" width="50%" height="50%">
-</div>
+    <div> 
+       <h2> <img src="img/avenger.jpg" width="50%" height="50%" float="left"> AVENGERS</h2>
+    <div>
             <ol>
             
                 <li>

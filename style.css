@@ -1,6 +1,7 @@
 body{ 
 font-size: 15px;
-font-family: 'Courier New', Courier, monospace;
+font-family: 'Quicksand', sans-serif;
+
 }
 
 #page-wrap { 
@@ -10,21 +11,24 @@ margin: 0 auto;
 
 h1  {
 /* margin: 25px; */
-font: 30px Georgia, Serif; 
+font: 30px ;
 text-transform: uppercase;
 letter-spacing: 3px;
-text-align: center;
 color: #ffffff;
+text-align: center;
 }
 
 h2{
  
 /* margin: 25px; */
-font: 35px Georgia, Serif; 
+font: 35px ; 
 text-transform: uppercase;
-letter-spacing: 3px;
-text-align: center;
+
       
+}
+
+img{
+  margin-left: 15px;
 }
 
 
@@ -50,7 +54,6 @@ font-weight: bold;
 #quiz h3 {
 font-size: 30px; 
 color: black;
-font-family: 'Courier New', Courier, monospace;
 text-align: center;
 border: 1px solid black;
 background-color: lightblue;
