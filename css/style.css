@@ -1,7 +1,8 @@
 body{ 
 font-size: 15px;
 font-family: 'Courier New', Courier, monospace;
-background-color: white;
+background-color: black;
+background-image: url(/img/avenger.jpg);
 }
 
 /* #page-wrap { 
@@ -45,9 +46,9 @@ color: black;
 font-weight: bold;
 }
 
-#quiz ol li div {
+/* #quiz ol li div {
 /* padding: 4px 0; */
-}
+
 
 #quiz h3 {
 font-size: 30px; 
