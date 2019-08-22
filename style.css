@@ -52,7 +52,7 @@ font-weight: bold;
 #quiz h3 {
 font-size: 30px; 
 /* margin: 0 0 1px 0;  */
-color: blue;
+color: black;
 font-family: 'Courier New', Courier, monospace;
 text-align: center;
 border: 1px solid black;
@@ -90,6 +90,7 @@ button{
    background-color: white;
    color: black;
    margin-right: 50px;
+   padding-left: 50px;
 }
 
 .row:hover{
