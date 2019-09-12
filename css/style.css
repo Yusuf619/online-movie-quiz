@@ -1,6 +1,12 @@
 html{
    scroll-behavior: smooth;
+
 }
+
+body{
+   font-family: 'Nanum Gothic', sans-serif !important;
+}
+
 
 h2{
    font-size: 32px;
@@ -25,6 +31,9 @@ h4{
    padding-top: 200px;
 }
 
+.container{
+   font-family: 'Nanum Gothic', sans-serif;
+}
 
 
 
@@ -37,11 +46,3 @@ h4{
 .navbar {
    z-index: 1;
 }
-p{
-   font-size: 1.5em;
-}
-/* html,
-body,
-header,
-.view {
- height: 100%; */

@@ -6,26 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Link for stylesheet -->
     <link rel="stylesheet" href="css/style.css"> 
-    <!--  -->
-    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">   
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  
+    <!-- GOOGLE FONTS  -->
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
     <title>Online Movie Quiz</title>
 </head>
     <!--Main Navigation-->
+
+    <!-- BODY -->
+<body>
     <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">Movie Quiz</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
+
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link" href="#start">Get Started!</a>
+      <a class="nav-item nav-link" href="#start">Get Started?</a>
     </div>
   </div>
 </nav>
 
-<body>
+
 
    <div class="showcase"> 
     <h1>Welcome to my movie quiz:</h1>
@@ -34,15 +39,12 @@
 
 
     </header>
-    <!--Main Navigation-->
-
-    <!--Main Layout-->
+    
     <main class=" my-5">
 
     <div class="container">
         <div class="row">
         <div class="col-md-12">
-             <!--Initialization step -->
     <h2 id="start">Good Luck!</h2>
 
     <!-- PHP -->
