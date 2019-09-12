@@ -337,7 +337,7 @@ END;
          if($total <= 9 ){
              echo "Try again";
          } else {
-             echo"Well Done!";
+             echo"Well Done, You should go out more!";
          }
         
     }
